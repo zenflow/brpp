@@ -1,6 +1,6 @@
 {
   "name": "brpp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "\"Browserify-Require++\" browserify transform to simulate calls to `rpp`",
   "main": "lib/index.js",
   "scripts": {
