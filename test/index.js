@@ -7,7 +7,7 @@ test('basic', getTest(__filename, {}, {
         "(new (require('rpp/lib/Collection'))({" +
             "'./dummy/a.js': require('./dummy/a.js'), " +
             "'./dummy/b.json': require('./dummy/b.json'), " +
-            "'./dummy/c.txt': require('fs').readFileSync(__dirname + './dummy/c.txt', 'utf8')" +
+            "'./dummy/c.txt': require('fs').readFileSync(__dirname + '/./dummy/c.txt', 'utf8')" +
         "}))"
 }));
 
