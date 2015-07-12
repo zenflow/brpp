@@ -1,0 +1,35 @@
+{
+  "name": "brpp",
+  "version": "0.0.1",
+  "description": "\"Browserify-Require++\" browserify transform to simulate calls to `rpp`",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://zenflow@github.com/zenflow/brpp.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Matthew Francis Brunetti",
+    "email": "zenflow87@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenflow/brpp/issues"
+  },
+  "homepage": "https://github.com/zenflow/brpp",
+  "dependencies": {
+    "concat-stream": "https://github.com/zenflow/concat-stream/tarball/d7e8874b6182017a36b79d0c74ee90a919f26699",
+    "duplexer2": "0.0.2",
+    "readable-stream": "^2.0.1",
+    "static-module": "^1.1.2"
+  },
+  "peerDependencies": {
+    "rpp": ">=0.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
